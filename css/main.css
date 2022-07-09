@@ -1,0 +1,56 @@
+.calculator {
+    display: flex;
+    height: 800px;
+    width: 600px;
+    border: 1px solid black;
+    background-color: darkgray;
+    flex-direction: column;
+    justify-content:space-between;
+    justify-items: stretch;
+}
+.display {
+    height: 10%;
+    background-color: darkolivegreen;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#numbers {
+    margin: 10px;
+    font-size: 6rem;
+}
+.buttons {
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.operators {
+    margin: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    /* justify-items: stretch; */
+}
+.digits {
+    margin: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    flex: 3;
+    flex-direction: row;
+    gap: 10px;
+    align-content:stretch;
+}
+.operators > * {
+    flex: 1;
+} 
+.digits > * {
+    flex: 1 1 30%;
+    /* width: 30%; */
+}
