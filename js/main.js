@@ -42,4 +42,5 @@ equal.addEventListener("click", e =>{
   ans = +ans.toFixed(5);
   displayValue = ans;
   display.textContent = displayValue;
+  2+3;
 })
